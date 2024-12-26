@@ -37,9 +37,9 @@ y = solve.y[0]
 
 plt.figure(figsize=(7, 6))
 plt.plot(x, y, '-r', label="v(t)")
-plt.xlabel("Время (с)", fontsize=14)  # Подпись оси X
+plt.xlabel("Время (с)", fontsize=12)  # Подпись оси X
 plt.ylabel("Скорость (м/с)", fontsize=12)  # Подпись оси Y
-plt.title("Зависимость скорости от времени (мат. модель)", fontsize=12)  # Подзаголовок графика
+plt.title("Зависимость скорости от времени (мат. модель)", fontsize=14)  # Подзаголовок графика
 plt.legend()
 plt.grid(True)
 plt.show()
