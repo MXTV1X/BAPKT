@@ -1,5 +1,5 @@
 import numpy as np # для работы с массивами и числовыми вычислениями
-import matplotlib.pyplot as plt # для построения графиков
+import matplotlib.pyplot as plt # для построения графика
 from scipy import integrate # для численного решения дифференциальных уравнений
 from scipy import constants # для доступа к физическим константам, таким как g (ускорение свободного падения) и π
 
